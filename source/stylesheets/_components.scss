@@ -1,0 +1,54 @@
+.sidebar {
+  background-color: white;
+  padding: 30px 25px;
+  display: grid;
+  grid-template-rows: 1fr 20vh;
+}
+
+header {
+  ::first-line a:hover {
+    border: none;
+    color: $blue-ludo;
+  }
+  ul li {
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-bottom: 15px;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: $blue-ludo;
+  text-decoration: none;
+}
+
+.tagline {
+  font-weight: 500;
+  padding: 5px 0 50px 0;
+}
+
+.social {
+  margin-top: 25px;
+  margin-right: 20px;
+  img {
+    width: 1.5em;
+    height: auto;
+  }
+}
+
+footer {
+  align-self: flex-end;
+  text-align: center;
+}
+
+main {
+  padding: 30px 25px;
+  background-color: $light-grey-ludo;
+  display: grid;
+  grid-template-columns: 1fr minmax(auto 60vw) 1fr;
+}

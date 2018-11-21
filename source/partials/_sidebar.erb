@@ -1,0 +1,37 @@
+<div class="sidebar">
+  <header>
+
+    <p><%= link_to 'Ludovic Bourgoin', '/', class: 'logo' %></p>
+    <p class="tagline">UI/UX Designer and Front-End Developer
+      <br>with a focus on Product and Branding</p>
+    <ul>
+      <li><%= link_to("Work", "/work.html") %></li>
+      <li><%= link_to("Tools", "/tools.html") %></li>
+      <li><%= link_to("About", "/about.html") %></li>
+      <li><%= link_to("Let's talk !", "/letstalk.html") %></li>
+    </ul>
+
+    <div class="social">
+      <%= link_to(image_tag('social/twitter.svg'), 'https://twitter.com/ludobourgoin', target: '_blank') %>
+      <%= link_to(image_tag('social/instagram.svg'), 'https://www.instagram.com/ludobourgoin/', target: '_blank') %>
+    </div>
+
+  </header>
+
+  <footer>
+    <p>This website was handcrafted with
+      <i class="fas fa-heart"></i>
+      <br>
+      by Ludovic bourgoin
+      <br>
+      using
+      <%= link_to('Middleman', 'https://middlemanapp.com', target: '_blank') %>
+      +
+      <%= link_to('Sass', 'https://sass-lang.com/', target: '_blank') %>
+      +
+      <%= link_to('Netlify', 'https://www.netlify.com/', target: '_blank') %>
+    </p>
+    <p>Source code on
+      <%= link_to('Github', 'https://github.com/ludobourgoin/portfolio', target: '_blank') %></p>
+  </footer>
+</div>
