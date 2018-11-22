@@ -1,0 +1,24 @@
+// WORK - Go back
+
+.go-back {
+  margin-bottom: 50px;
+  color: $dark-grey-ludo;
+  a {
+    font-weight: 700;
+
+    color: $blue-ludo;
+    &:hover {
+      color: $blue-hover-btn;
+    }
+  }
+}
+
+.tag-case {
+  background-color: #b3afaf;
+  border-radius: $radius-tag;
+  padding: 15px 25px;
+  color: #f7efef;
+  margin-right: 15px;
+  font-size: 1em;
+  font-weight: 600;
+}

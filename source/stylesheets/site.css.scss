@@ -1,20 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900');
 @import 'base';
 @import 'variables';
-@import 'components';
+@import 'sidebar';
+@import 'work';
+@import 'work_case';
 @import 'misc';
 
 body {
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
-  line-height: 1.4em;
   display: grid;
-  grid-template-columns: minmax(370px, 25vw) 1fr;
-  grid-template-rows: 100vh;
+  grid-template-columns: 370px auto;
   color: $dark-grey-ludo;
 }
 
+main {
+  grid-column-start: 2;
+  background-color: $light-grey-ludo;
+  padding: 50px 20px;
+  min-height: 100vh;
+}
 
+.inner {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
 h1 {
   font-size: 3.5em;
@@ -23,14 +35,28 @@ h1 {
 
 h2 {
   background-color: white;
+  border-radius: $radius;
   color: $blue-ludo;
-  padding: 20px;
-  font-weight: 800;
-  font-size: 2em;
+  padding: 25px;
+  font-weight: 700;
+  font-size: 1.7em;
+  line-height: 1.4em;
+  margin: 45px 0;
+}
+
+h3 {
+  font-size: 1.8em;
+  font-weight: 900;
+}
+
+p {
+  line-height: 1.4em;
+  font-weight: 500;
 }
 
 a {
   color: $blue-ludo;
+  text-decoration: none;
   &:focus,
   &:hover {
     color: $blue-ludo;
