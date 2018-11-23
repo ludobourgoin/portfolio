@@ -5,7 +5,7 @@
 .cards-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 30px;
+  grid-gap: 50px;
 }
 
 
@@ -15,12 +15,15 @@
   background-color: white;
   border-radius: $radius;
   img {
-    border-radius: $radius $radius 0 0 ;
+    border-radius: $radius;
   }
 }
 
 .card-work-body {
     padding: 30px;
+    h3 {
+      margin: 0;
+    }
     h3 > a {
       color: $dark-grey-ludo;
       &:hover {
@@ -37,10 +40,10 @@
 }
 
 .tag {
-  background-color: #F1F1F1;
+  background-color: #dfe0e4;
   border-radius: $radius-tag;
   padding: 10px 15px;
-  color: #868686;
+  color: $dark-grey-ludo;
   margin-right: 10px;
   font-size: 0.8em;
   font-weight: 600;
@@ -50,7 +53,7 @@
   display: block;
   background-color: $blue-ludo;
   padding: 15px;
-  margin-top: 20px;
+  margin-top: 40px;
   color: white;
   font-size: 1em;
   font-weight: 600;
@@ -61,5 +64,5 @@
 
 .card-work-body a:hover {
   color: white;
-  background-color: $blue-hover-btn;
+  background-color: $hover;
 }

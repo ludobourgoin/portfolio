@@ -6,6 +6,9 @@
   grid-template-rows: 1fr 1fr;
   position: fixed;
   height: 100vh;
+  p {
+    margin: 0;
+  }
 }
 
 header {
@@ -38,6 +41,9 @@ header {
     width: 1.5em;
     height: auto;
     margin-right: 5px;
+  }
+  a:hover {
+    color: $hover;
   }
 }
 
