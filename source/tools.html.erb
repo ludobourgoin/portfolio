@@ -1,11 +1,40 @@
 <main>
-  <h1>Tools</h1>
+
+  <section class="inner">
+    <h1>Tools</h1>
+    <h2>My tools, apps and devices of choice. These things I use on a daily basis, in my work and life.</h2>
+
+
+<h3>Setup</h3>
+
+    <div class="cards-tools-grid">
+
+      <!-- MacBook Pro 15" -->
+      <div class="card-tool-container">
+          <div class="tool-logo"><%= image_tag ('tools/macbook.png')%></div>
+          <h4>MacBook Pro 15"</h4>
+          <p>My favorite editor</p>
+          <div class="tool-cta"><%= link_to("Website", "https://atom.io/", class: 'card-tool-btn', target: '_blank') %></div>
+      </div>
+
+      <!-- Roost Stand -->
+      <div class="card-tool-container">
+          <div class="tool-logo"><%= image_tag ('tools/roost_stand.jpg')%></div>
+          <h4>Roost Stand</h4>
+          <p>To prevent neck and back pain. Small and useful !</p>
+          <div class="tool-cta"><%= link_to("Website", "https://www.therooststand.com/", class: 'card-tool-btn', target: '_blank') %></div>
+      </div>
+
+
+      <!-- Card Atom -->
+      <div class="card-tool-container">
+          <div class="tool-logo"><%= image_tag ('tools/dell_U2415.png')%></div>
+          <h4>Dell U2415</h4>
+          <p>My favorite editor et je sais que je me répète !<br><br></p>
+          <div class="tool-cta"><%= link_to("Website", "https://www.amazon.com/dp/B00OA2I362/ref=pe_386171_38075861_TE_item", class: 'card-tool-btn', target: '_blank') %></div>
+      </div>
+    </div>
+
+
+  </section>
 </main>
-
-Faire une boucle each pour chacun des tools, disponibles
-en mode Front Matter (ou JSON) quelque part (sur la même page j'imagine).
-
-Faire une boucle pour chaque catégorie
-Setup
-Apps
-Books

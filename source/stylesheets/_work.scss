@@ -2,7 +2,7 @@
 
 // WORK - Cards grid
 
-.cards-grid {
+.cards-work-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
@@ -14,23 +14,10 @@
 .card-work-container {
   background-color: white;
   border-radius: $radius;
+  padding: 30px;
   img {
     border-radius: $radius;
   }
-}
-
-.card-work-body {
-    padding: 30px;
-    h3 {
-      margin: 0;
-    }
-    h3 > a {
-      color: $dark-grey-ludo;
-      &:hover {
-        color: $dark-grey-ludo;
-        background-color: transparent;
-      }
-    }
 }
 
 .tags {
@@ -62,7 +49,7 @@
 
 }
 
-.card-work-body a:hover {
+.card-work-container a:hover:last-child {
   color: white;
   background-color: $hover;
 }

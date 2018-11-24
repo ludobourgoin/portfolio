@@ -37,10 +37,9 @@ header {
 .social {
   margin-top: 25px;
 
-  img {
-    width: 1.5em;
-    height: auto;
-    margin-right: 5px;
+  i {
+    font-size: 1.5em;
+    margin-right: 10px;
   }
   a:hover {
     color: $hover;
@@ -50,4 +49,8 @@ header {
 footer {
   text-align: center;
   align-self: flex-end;
+}
+
+.fa-heart {
+  color: red;
 }
