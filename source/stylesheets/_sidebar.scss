@@ -1,11 +1,12 @@
 .sidebar {
   background-color: white;
-  padding: 30px 25px 20px 25px;
+  padding: 30px 25px 20px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   position: fixed;
   height: 100vh;
+
   p {
     margin: 0;
   }
@@ -16,6 +17,7 @@ header {
     border: none;
     color: $blue-ludo;
   }
+
   ul li {
     font-size: 1.2em;
     font-weight: 600;
@@ -31,7 +33,7 @@ header {
 
 .tagline {
   font-weight: 500;
-  padding: 5px 0 50px 0;
+  padding: 5px 0 50px;
 }
 
 .social {
@@ -41,6 +43,7 @@ header {
     font-size: 1.5em;
     margin-right: 10px;
   }
+
   a:hover {
     color: $hover;
   }
@@ -49,6 +52,10 @@ header {
 footer {
   text-align: center;
   align-self: flex-end;
+
+  p {
+    font-size: 1em;
+  }
 }
 
 .fa-heart {
