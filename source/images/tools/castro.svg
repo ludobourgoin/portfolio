@@ -1,11 +1,11 @@
 <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g clip-path="url(#clip0)">
 <rect width="200" height="200" fill="white"/>
-<rect x="-11" y="-10" width="222" height="221" fill="url(#pattern0)"/>
+<rect x="-2" y="-1" width="204" height="203" fill="url(#pattern0)"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0" transform="translate(0 0.164919) scale(0.00142857)"/>
+<use xlink:href="#image0" transform="translate(0 0.164785) scale(0.00142857)"/>
 </pattern>
 <clipPath id="clip0">
 <rect width="200" height="200" fill="white"/>
