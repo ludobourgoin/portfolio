@@ -10,12 +10,16 @@ body {
   text-align: center;
 }
 
+p {
+  font-size: 1.2em;
+}
+
 a {
-  color: #3676D9;
+  color: rgba(#000, 0.6);
 
   &:focus,
   &:hover {
-    color: rgba(#000, 0.6);
+    color: #3676D9;
   }
 }
 
