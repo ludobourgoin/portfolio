@@ -1,77 +1,84 @@
 <h1>Work</h1>
 <h2>Here's a list of recent projects I worked on for some great clients, as well as personal side projects.</h2>
 
-<!-- Cards for Work page -->
-<div class="cards-work-grid">
+<div class="cards">
 
-  <!-- Card RavalAds -->
-  <div class="card-work-container">
-    <%= link_to(image_tag('work/ravalads.png'), "/ravalads.html")%>
-    <ul class="tags">
-      <li class="tag">branding</li>
-      <li class="tag">design</li>
-      <li class="tag">development</li>
-    </ul>
-    <p>As a new advertising network company on the market,
-      <span>RavalAds</span>
-      needed a professional yet friendly brand identity, coming along with a modern and clean marketing website.</p>
-    <%= link_to("Read case study", "/ravalads.html", class: 'card-work-btn') %>
-
+  <!-- RavalAds -->
+  <div class="cards__item cards__work">
+    <%= link_to(image_tag('ravalads/ravalads_0.png', class: 'cards__item-img'), "/ravalads.html")%>
+    <div class="cards__item-copy">
+      <h3>RavalAds</h3>
+      <ul class="tags">
+        <li class="tags__item">branding</li>
+        <li class="tags__item">design</li>
+        <li class="tags__item">development</li>
+      </ul>
+      <p>As a new advertising network company on the market,
+        <span>RavalAds</span>
+        needed a professional yet friendly brand identity, coming along with a modern and clean marketing website.</p>
+        <%= link_to("Read case study", "/ravalads.html", class: 'cards__btn cards__btn--primary') %>
+    </div>
   </div>
+
 
   <!-- Card Gustin -->
-  <div class="card-work-container">
-    <%= link_to(image_tag('work/gustin.png'), "/gustin.html")%>
-    <ul class="tags">
-      <li class="tag">branding</li>
-      <li class="tag">design</li>
-    </ul>
-    <p>
-      <span>Gustin</span>
-      needed a fresh face. The idea was to redesign the current home page with a modern and cleaner layout, for a better user experience and concept understanding.</p>
-    <%= link_to("Read case study", "/gustin.html", class: 'card-work-btn') %>
-
-  </div>
+  <!-- <div class="cards__item cards__work">
+    <%= link_to(image_tag('work/gustin.png', class: 'cards__item-img'), "/gustin.html")%>
+    <div class="cards__item-copy">
+      <h3>Gustin</h3>
+      <ul class="tags">
+        <li class="tags__item">branding</li>
+        <li class="tags__item">design</li>
+      </ul>
+      <p><span>Gustin</span> needed a fresh face. The idea was to redesign the current home page with a modern and cleaner layout, for a better user experience and concept understanding.</p>
+        <%= link_to("Read case study", "/gustin.html", class: 'cards__btn cards__btn--primary') %>
+    </div>
+  </div> -->
 
   <!-- Card 42 Movie Quotes -->
-  <div class="card-work-container">
-    <%= link_to(image_tag('work/42moviequotes.png'), "https://www.instagram.com/42moviequotes/")%></h3>
-  <ul class="tags">
-    <li class="tag">side project</li>
-    <li class="tag">instagram</li>
-  </ul>
-  <p>As a movie junkie, I love punchlines ! I decided to design and share minimalistic cards displaying politicaly incorrect movie lines upon the corresponding scene screenshot background.</p>
-  <%= link_to("Got to 42 Movie Quotes", "https://www.instagram.com/42moviequotes/", class: 'card-work-btn') %>
+  <div class="cards__item cards__work">
+    <%= link_to(image_tag('work/42moviequotes.png', class: 'cards__item-img'), "https://www.instagram.com/42moviequotes/", target: '_blank')%>
+    <div class="cards__item-copy">
+      <h3>42 Movie quotes</h3>
+      <ul class="tags">
+        <li class="tags__item">side project</li>
+        <li class="tags__item">instagram</li>
+      </ul>
+      <p>As I love movie punchlines, I decided to design and share minimalistic cards displaying politically incorrect movie quotes on scene backgrounds.</p>
+        <%= link_to("Visit Instagram account", "https://www.instagram.com/42moviequotes/", class: 'cards__btn cards__btn--primary', target: '_blank') %>
+    </div>
+  </div>
 
-</div>
+  <!-- Card Jobifit -->
+  <div class="cards__item cards__work">
+    <%= link_to(image_tag('jobifit/jobifit_0.png', class: 'cards__item-img'), "/jobifit.html")%>
+    <div class="cards__item-copy">
+      <h3>Jobifit</h3>
+      <ul class="tags">
+        <li class="tags__item">branding</li>
+        <li class="tags__item">design</li>
+      </ul>
+      <p><span>Jobifit</span> is a marketplace for fitness professionals: employers publish job ads and browse trainers database. I designed full wireframes and brand identity of the app.</p>
 
-<!-- Card Jobifit -->
-<div class="card-work-container">
-  <%= image_tag ('work/jobifit.png')%>
-  <ul class="tags">
-    <li class="tag">branding</li>
-    <li class="tag">design</li>
-  </ul>
-  <p>
-    <span>Jobifit</span>
-    is a job board app for fitness professionals. I designed the whole user experience and visual identity of the app.<br><br><br></p>
-  <%= link_to("Read case study", "/ravalads.html", class: 'card-work-btn') %>
+        <%= link_to("Read case study", "/jobifit.html", class: 'cards__btn cards__btn--primary') %>
+    </div>
+  </div>
 
-</div>
-
-<!-- Card CoachOasis -->
-<div class="card-work-container">
-  <%= image_tag ('work/coachoasis.png')%>
-
-  <ul class="tags">
-    <li class="tag">branding</li>
-    <li class="tag">ux design</li>
-    <li class="tag">pm</li>
-  </ul>
-  <p>As a Product Manager at
-    <span>CoachOasis</span>, I lead all the product efforts and initiatives. I also supported the operational and financial tasks that helped us raise $200K to develop the app concept and initial traction.</p>
-  <%= link_to("Read case study", "/ravalads.html", class: 'card-work-btn') %>
-
-</div>
+  <!-- Card CoachOasis -->
+  <div class="cards__item cards__work">
+    <%= link_to(image_tag('work/coachoasis.png', class: 'cards__item-img'), "/coachoasis.html")%>
+    <div class="cards__item-copy">
+      <h3>CoachOasis</h3>
+      <ul class="tags">
+        <li class="tags__item">branding</li>
+        <li class="tags__item">ux</li>
+        <li class="tags__item">pm</li>
+      </ul>
+      <p>As a new advertising network company on the market,
+        <span>RavalAds</span>
+        needed a professional yet friendly brand identity, coming along with a modern and clean marketing website.</p>
+        <%= link_to("Read case study", "/coachoasis.html", class: 'cards__btn cards__btn--primary') %>
+    </div>
+  </div>
 
 </div>

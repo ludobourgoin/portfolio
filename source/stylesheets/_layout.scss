@@ -22,14 +22,19 @@
   // Make it sticky :
   position: sticky;
   top: 0;
+  // End make it sticky
+  padding: 24px 24px 0 24px;
 }
 
 .l-main {
   margin: 0 auto;
+  padding: 24px;
+
 }
 
 .l-inner {
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+
+  // margin-left: auto;
+  // margin-right: auto;
 }
