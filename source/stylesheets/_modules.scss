@@ -57,7 +57,7 @@
 .cards__item {
   background: white;
   border-radius: $radius;
-  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .cards__work {
@@ -79,14 +79,16 @@
 
 .tags__item {
   background-color: $light-grey-ludo;
-  padding: 8px 20px;
+  padding: 4px 18px;
   border-radius: 25px;
   margin-right: 8px;
   font-size: 0.8em;
+  margin-bottom: 12px;
 }
 
 .tags__item--white {
   margin-top: 16px;
+  margin-bottom: 32px;
   background-color: white;
 }
 
@@ -132,8 +134,7 @@ a.categories__item:hover {
 }
 
 .cards__item-copy {
-  padding: 0 24px 24px 24px;
-  margin-top: 16px;
+  padding: 16px 24px 24px 24px;
 }
 
 .cards__btn {
@@ -165,7 +166,8 @@ a.cards__btn--secondary:hover {
 }
 
 .title {
-  margin-top: 64px;
+  margin-top: 80px;
+  margin-bottom: 32px;
 }
 
 .contact {

@@ -1,13 +1,5 @@
 // Media queries :
 
-@media (max-width: 1210px) {
-  .tags__item {
-    padding: 4px 12px;
-    font-size: 0.8em;
-    margin-right: 4px;
-  }
-}
-
 @media (max-width: 1000px) {
   .l-container {
     display: block;
@@ -36,7 +28,6 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 24px 0;
   }
   .nav__item {
     margin-right: 24px;
@@ -53,7 +44,7 @@
   }
 
   .tags__item {
-    margin-bottom: 4px;
+    margin-bottom: 44px;
   }
 }
 

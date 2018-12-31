@@ -36,7 +36,7 @@ h4 {
   font-weight: 800;
 }
 
-p, ul {
+p {
   line-height: 1.4em;
   font-weight: 500;
   margin-top: 8px;
@@ -44,6 +44,12 @@ p, ul {
   span {
     font-weight: 800;
   }
+}
+
+ul {
+  line-height: 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 img {
