@@ -1,0 +1,40 @@
+// Layout structure :
+
+// container
+//   sidebar
+//   main
+//     inner
+
+// ###########################################################################
+
+.l-container {
+  display: flex;
+  flex-direction: row;  // No need but I like it that way. Sue me !
+}
+
+.l-sidebar {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 370px;
+  // Make it sticky :
+  position: sticky;
+  top: 0;
+  // End make it sticky
+  padding: 24px 24px 0 24px;
+}
+
+.l-main {
+  margin: 0 auto;
+  padding: 24px;
+
+}
+
+.l-inner {
+  max-width: 800px;
+
+  // margin-left: auto;
+  // margin-right: auto;
+}

@@ -1,0 +1,72 @@
+body {
+  background-color: $light-grey-ludo;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  color: $dark-grey-ludo;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: 900;
+  margin-top: 32px;
+}
+
+h2 {
+  background-color: white;
+  border-radius: $radius;
+  color: $blue-ludo;
+  padding: 25px;
+  font-weight: 700;
+  font-size: 1.8em;
+  line-height: 1.4em;
+  margin: 25px 0 60px 0;
+  a {
+    border-bottom: solid 4px ;
+  }
+}
+
+h3 {
+  font-size: 2.5em;
+  font-weight: 900;
+  margin: 16px 0;
+}
+
+h4 {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+p, ul {
+  line-height: 1.4em;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  span {
+    font-weight: 800;
+  }
+}
+
+// ul {
+//   line-height: 2rem;
+//   font-size: 1.1rem;
+//   font-weight: 600;
+// }
+
+img {
+  display: block;
+  margin: auto;
+  border-radius: $radius;
+}
+
+a {
+  color: $blue-ludo;
+  text-decoration: none;
+  &:focus,
+  &:hover {
+    color: $pink-ludo;
+  }
+}
+
+.fa-heart {
+  color: $pink-ludo;
+}

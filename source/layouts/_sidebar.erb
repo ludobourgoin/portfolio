@@ -1,0 +1,58 @@
+<div class="l-sidebar">
+
+  <header class="header">
+    <%= link_to 'Ludovic Bourgoin', '/', class: 'header__title' %>
+    <p class="header__tagline">UI/UX Designer and Front-End Developer
+      <br>with a focus on Product and Branding</p>
+  </header>
+
+  <div class="sidebar-main">
+    <nav class="nav">
+      <ul class="nav__items">
+        <li><%= link_to("Work 💼", "/work.html", class: 'nav__item') %></li>
+        <!-- <li><%= link_to("Process 🚀", "/process.html", class: 'nav__item') %></li> -->
+        <li><%= link_to("Tools 🛠️", "/tools.html", class: 'nav__item') %></li>
+        <!-- <li><%= link_to("Praise", "/praise.html", class: 'nav__item') %></li> -->
+        <!-- <li><%= link_to("About 🤪", "/about.html", class: 'nav__item') %></li> -->
+        <li><%= link_to("Let's talk 🤙", "/letstalk.html", class: 'nav__item') %></li>
+      </ul>
+    </nav>
+
+    <div class="social">
+      <ul class="social__icons">
+        <li>
+          <a href="https://twitter.com/ludobourgoin" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/ludobourgoin/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/ludovicbourgoin" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <p>This website was handcrafted with
+      <i class="fas fa-heart"></i>
+      <br>
+      by me, Ludovic Bourgoin,
+      <br>
+      using
+      <%= link_to('Middleman', 'https://middlemanapp.com', target: '_blank') %>
+      +
+      <%= link_to('Sass', 'https://sass-lang.com/', target: '_blank') %>
+      +
+      <%= link_to('Netlify', 'https://www.netlify.com/', target: '_blank') %>.
+      <br>Source code on
+      <%= link_to('Github', 'https://github.com/ludobourgoin/portfolio', target: '_blank') %>.
+    </footer>
+  </div>

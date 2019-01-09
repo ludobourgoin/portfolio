@@ -1,0 +1,21 @@
+// WORK - Go back
+
+.go-back {
+  margin-bottom: 40px;
+  color: $dark-grey-ludo;
+  display: flex;
+  align-items: center;
+  a {
+    font-weight: 700;
+
+    color: $blue-ludo;
+    &:hover {
+      color: $hover;
+    }
+  }
+}
+
+.tags-case .tag {
+  background-color: #c7c2c2;
+  color: white;
+}

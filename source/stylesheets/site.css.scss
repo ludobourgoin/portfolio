@@ -1,29 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900');
-
-
-
-body {
-  background-color: #F0F5F7;
-  color: #3676D9;
-  font-family: 'Raleway', sans-serif;
-  padding: 18vh 1rem;
-  text-align: center;
-}
-
-p {
-  font-size: 1.2em;
-}
-
-a {
-  color: rgba(#000, 0.6);
-
-  &:focus,
-  &:hover {
-    color: #3676D9;
-  }
-}
-
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
-}
+@import 'reset';       // Reset
+@import 'variables';   // Variables (no, really ?)
+@import 'base';        // Default styles + Variables + Mixins
+@import 'layout';      // Global layout structure
+@import 'modules';     // Components layouts w/ BEM
+@import 'states';      // Media queries and JS-related styles

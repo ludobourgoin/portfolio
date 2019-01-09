@@ -1,0 +1,180 @@
+// Header
+.header {
+  flex-grow: 1;
+}
+.header__title {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.header__tagline {
+  margin-top: 8px;
+}
+
+// Sidebar-main = nav + social
+.sidebar-main {
+  flex-grow: 15;
+}
+
+// Nav
+.nav ul{
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+}
+
+// Social
+.social__icons {
+  display: flex;
+}
+.fa-twitter, .fa-instagram, .fa-linkedin {
+  font-size: 1.3rem;
+  margin-right: 12px;
+  margin-top: 32px;
+}
+
+// Footer
+.footer {
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+// Main h2 on home page
+.tagline {
+  font-size: 2.4em;
+}
+
+// Cards
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cards__item {
+  background: white;
+  border-radius: $radius;
+  margin-bottom: 32px;
+}
+
+.cards__work {
+  width: 48%;
+}
+
+.cards__tools {
+  width: 31%;
+}
+
+.cards__item-img {
+  border-radius: $radius $radius 0 0;
+}
+
+.categories, .tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags__item {
+  background-color: $light-grey-ludo;
+  padding: 4px 18px;
+  border-radius: 25px;
+  margin-right: 8px;
+  font-size: 0.8em;
+  margin-bottom: 12px;
+}
+
+.tags__item--white {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  background-color: white;
+}
+
+.categories {
+  padding-bottom: 32px;
+}
+
+.categories__item {
+  display: block;
+  margin-bottom: 16px;
+  margin-right: 16px;
+  color: white;
+  :hover: white;
+  border-radius: 25px;
+  padding: 10px 32px;
+  font-size: 1.1em;
+}
+
+
+
+a.categories__item:hover {
+  color: $light-grey-ludo;
+}
+
+.pink {
+  background-color: $pink-ludo;
+}
+
+.green {
+  background-color: $green-ludo;
+}
+
+.blue {
+  background-color: $blue-ludo;
+}
+
+.orange {
+  background-color: $orange-ludo;
+}
+
+.purple {
+  background-color: $purple-ludo;
+}
+
+.cards__item-copy {
+  padding: 16px 24px 24px 24px;
+}
+
+.cards__btn {
+  display: block;
+  font-weight: 600;
+  padding: 16px;
+  border-radius: $radius;
+  text-align: center;
+}
+
+.cards__btn--primary {
+  background-color: $blue-ludo;
+  color: white;
+}
+
+a.cards__btn--primary:hover {
+  background-color: $pink-ludo;
+  color: white;
+}
+
+.cards__btn--secondary {
+  background-color: $grey-btn;
+  color: $dark-grey-ludo;
+}
+
+a.cards__btn--secondary:hover {
+  background-color: #e0e4e6;
+  color: $dark-grey-ludo;
+}
+
+.title {
+  margin-top: 80px;
+  margin-bottom: 32px;
+}
+
+.contact {
+  line-height: 2.4rem;
+}
+
+.screenshot {
+ margin-top: 24px;
+ margin-bottom: 40px;
+}
